@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PenkinJavaBasicHomework2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Домашнее задание 2, введите номер метода от 1 до 5____________");
+        System.out.println("Домашнее задание 2, введите номер метода от 1 до 5");
         int scan = scanner.nextInt();
         if (scan == 1) {
             Metod_1(5, "Заработало!");
